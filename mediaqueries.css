@@ -1,0 +1,58 @@
+/* Media queries  */
+@media only screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 1.25rem;
+  }
+  .header a {
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Media Query .mission */
+  .mission-content {
+    opacity: 1;
+    color: #444;
+  }
+  /* Media Query .content */
+  .content h2 {
+    font-size: 1.25rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+
+  /* Media Query for .company-card */
+  .company-card {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .company-card span {
+    font-size: 0.75rem;
+  }
+
+  /* Media Query .team-section */
+  .team-section h2 {
+    font-size: 1rem;
+    text-shadow: 1px 1px 0px #555;
+  }
+  .teammate h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .teammate p {
+    font-size: 0.9rem;
+  }
+
+  /* Media Query .footer */
+  .footer {
+    word-wrap: break-word;
+  }
+  .footer .contact {
+    font-size: 1rem;
+  }
+  .footer p {
+    font-size: 0.75rem;
+  }
+}
